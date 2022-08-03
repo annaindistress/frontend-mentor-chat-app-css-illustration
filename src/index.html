@@ -4,9 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Frontend Mentor | Chat app CSS illustration solution</title>
 </head>
-<body>
-
+<body class="page">
+  <div class="page__container">
+    <h1 class="page__title">Simple booking</h1>
+    <p class="page__text">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    <section class="page__mobile mobile">
+      <header class="mobile__header">
+        <button class="mobile__header-button mobile__header-button--back" type="button">
+          <span class="visually-hidden">Back to chat list</span>
+        </button>
+        <img class="mobile__avatar" src="./images/avatar.jpg" alt="Samuel Green" width="24" height="24">
+        <h2 class="mobile__name">Samuel Green</h2>
+        <p class="mobile__status">Available to Walk</p>
+        <button class="mobile__header-button mobile__header-button--more" type="button">
+          <span class="visually-hidden">More</span>
+        </button>
+      </header>
+      <ul class="mobile__message-list">
+        <li class="mobile__message-item">
+          <div class="mobile__message mobile__message--in">That sounds great. I’d be happy with that.</div>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__message mobile__message--in">Could you send over some pictures of your dog, please?</div>
+        </li>
+        <li class="mobile__message-item">
+          <ul class="mobile__attachements mobile__attachements--in">
+            <li class="mobile__attachement">
+              <img class="mobile__image" src="./images/dog-image-1.jpg" alt="User image" width="40" height="40">
+            </li>
+            <li class="mobile__attachement">
+              <img class="mobile__image" src="./images/dog-image-2.jpg" alt="User image" width="40" height="40">
+            </li>
+            <li class="mobile__attachement">
+              <img class="mobile__image" src="./images/dog-image-3.jpg" alt="User image" width="40" height="40">
+            </li>
+          </ul>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__message mobile__message--out">Here are a few pictures. She’s a happy girl!</div>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__message mobile__message--out">Can you make it?</div>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__message mobile__message--in">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__price mobile__price--in">
+            <input class="mobile__price-input" type="radio" name="price-option" id="price-option-30">
+            <label class="mobile__price-label" for="price-option-30">
+              30 minute walk
+              <span class="mobile__price-amount">$29</span>
+            </label>
+          </div>
+        </li>
+        <li class="mobile__message-item">
+          <div class="mobile__price mobile__price--in">
+            <input class="mobile__price-input" type="radio" name="price-option" id="price-option-49">
+            <label class="mobile__price-label" for="price-option-49">
+              1 hour walk
+              <span class="mobile__price-amount">$49</span>
+            </label>
+          </div>
+        </li>
+      </ul>
+      <footer class="mobile__footer">
+        <input class="mobile__input" type="text" name="message-input" id="message-input" placeholder="Type a message…">
+        <button class="mobile__submit" type="submit">
+          <span class="visually-hidden">Send message</span>
+        </button>
+      </footer>
+    </section>
+  </div>
 </body>
 </html>

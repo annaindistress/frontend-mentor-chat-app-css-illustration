@@ -1,0 +1,35 @@
+@keyframes bgLeftSlideInMobile {
+  to {
+    left: -322px;
+  }
+}
+
+@keyframes bgLeftSlideInDesktop {
+  to {
+    left: -90px;
+  }
+}
+
+@keyframes bgRightSlideInMobile {
+  to {
+    right: -322px;
+  }
+}
+
+@keyframes bgRightSlideInDesktop {
+  to {
+    right: -90px;
+  }
+}
+
+@keyframes phoneSlideInMobile {
+  to {
+    top: 0;
+  }
+}
+
+@keyframes phoneSlideInDesktop {
+  to {
+    bottom: 0;
+  }
+}

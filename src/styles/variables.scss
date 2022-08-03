@@ -1,0 +1,15 @@
+$color-primary-100: #d99eff;
+$color-primary-200: #e472ff;
+$color-primary-300: #e844ff;
+$color-primary-400: #9341c8;
+$color-primary-500: #8739ff;
+$color-primary-600: #3e2753;
+
+$color-secondary-100: #f2f2f2;
+$color-secondary-200: #eee5f4;
+$color-secondary-300: #c5c9cc;
+$color-secondary-400: #a39da9;
+$color-secondary-500: #6e5d7e;
+
+$gradient: linear-gradient(225deg, $color-primary-300 0%, $color-primary-500 100%);
+$gradient-reverse: linear-gradient(-225deg, $color-primary-300 0%, $color-primary-500 100%);
