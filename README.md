@@ -23,11 +23,24 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.png)
+
+
 ### Links
+
+- [Solution URL](https://github.com/annaindistress/frontend-montor-chat-app-css-illustration)
+- [Live Site URL](https://annaindistress.github.io/frontend-montor-chat-app-css-illustration/)
 
 ## My process
 
 ### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Gulp
+- SCSS
 
 ## Author
 
