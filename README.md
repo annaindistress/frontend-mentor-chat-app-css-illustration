@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/annaindistress/frontend-montor-chat-app-css-illustration)
-- [Live Site URL](https://annaindistress.github.io/frontend-montor-chat-app-css-illustration/)
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-chat-app-css-illustration)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-chat-app-css-illustration/)
 
 ## My process
 
